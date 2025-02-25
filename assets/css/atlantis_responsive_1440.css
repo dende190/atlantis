@@ -54,3 +54,34 @@
     line-height: 32px;
   }
 }
+
+@media (width <= 1440px) and (height <= 800px) {
+  .atlantis-encabezado_presentacion_imagenes_contenedor {
+    bottom: 104px;
+    right: -140px;
+  }
+
+  .atlantis-quienes_somos_titulo {
+    font-size: 80px;
+    line-height: 64px;
+  }
+
+  .atlantis-quienes_somos_contenido {
+    line-height: 36px;
+  }
+
+  .atlantis-servicios_personas_museo_imagen {
+    width: 443px;
+    height: 275px;
+    margin-right: 48px;
+  }
+
+  .atlantis-servicios_colegio_autobus_imagen {
+    width: 443px;
+    height: 275px;
+  }
+
+  .atlantis-visiones_contenido_contenedor {
+    margin-top: 0;
+  }
+}
