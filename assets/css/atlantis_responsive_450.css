@@ -1,0 +1,132 @@
+@media (width <= 450px) {
+  .atlantis-encabezado_titulo {
+    font-size: 80px;
+    line-height: 87px;
+  }
+
+  .atlantis-encabezado_subtitulo {
+    text-align: center;
+  }
+
+  .atlantis-encabezado_presentacion_imagenes_contenedor {
+    flex-direction: column;
+    bottom: 40px;
+  }
+
+  .atlantis-encabezado_personas_acampando_imagen_contenedor {
+    width: 240px;
+    margin: 0 0 20px;
+  }
+
+  .atlantis-encabezado_personas_oficina_imagen_contenedor {
+    width: 240px;
+  }
+
+  .atlantis-quienes_somos_seccion {
+    justify-content: center;
+  }
+
+  .atlantis-quienes_somos_contenedor {
+    padding: 0 32px;
+  }
+
+  .atlantis-quienes_somos_titulo {
+    font-size: 80px;
+    margin-bottom: 52px;
+    line-height: 60px;
+  }
+
+  .atlantis-quienes_somos_contenido {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    line-height: 47px;
+  }
+
+  .atlantis-servicios_personas_museo_imagen {
+    display: none;
+  }
+
+  .atlantis-servicios_titulo {
+    font-size: 80px;
+    margin-bottom: 32px;
+  }
+
+  .atlantis-servicios_listado_contenedor {
+    text-align: center;
+    padding: 0 44px;
+  }
+
+  .atlantis-visiones_titulo {
+    font-size: 24px;
+  }
+
+  .atlantis-vision_icono {
+    display: none;
+  }
+
+  .atlantis-vision_titulo {
+    margin: 12px 0 24px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_contenido_contenedor {
+    height: 480px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_titulo {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_descripcion {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .atlantis-gracias_seccion {
+    margin: 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .atlantis-gracias_contacto_mensaje {
+    margin: 24px 0;
+  }
+
+  .atlantis-pie_pagina {
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  .atlantis-pie_pagina_redes_informacion_contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .atlantis-pie_pagina_redes_informacion_telefono_contenedor {
+    margin: 40px 0 20px;
+  }
+
+  .atlantis-pie_pagina_redes_informacion_nombre {
+    font-size: 28px;
+  }
+
+  .atlantis-pie_pagina_red_social {
+    font-size: 64px;
+  }
+
+  .atlantis-pie_pagina_correo_contenedor {
+    padding: 0 0 52px;
+    align-items: center;
+  }
+
+  .atlantis-pie_pagina_correo {
+    font-size: 20px;
+  }
+
+  .atlantis-whatsapp_logo {
+    width: 52px;
+  }
+}

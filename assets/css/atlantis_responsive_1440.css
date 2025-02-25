@@ -1,0 +1,56 @@
+@media (width <= 1440px) {
+  .atlantis-encabezado_presentacion_imagenes_contenedor {
+    bottom: 328px;
+  }
+
+  .atlantis-encabezado_personas_acampando_imagen_contenedor {
+    width: 320px;
+  }
+
+  .atlantis-encabezado_personas_oficina_imagen_contenedor {
+    width: 320px;
+  }
+
+  .atlantis-quienes_somos_contenedor {
+    gap: 96px;
+  }
+
+  .atlantis-quienes_somos_titulo {
+    font-size: 92px;
+  }
+
+  .atlantis-quienes_somos_contenido {
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  .atlantis-quienes_somos_personas_viajando_imagen {
+    width: 76%;
+  }
+
+  .atlantis-quienes_somos_personas_viajando_imagen_fondo_color_contenedor {
+    width: 83%;
+    right: 80px;
+  }
+
+  .atlantis-servicios_contenido_contenedor {
+    width: 94%;
+  }
+
+  .atlantis-servicios_titulo {
+    font-size: 104px;
+  }
+
+  .atlantis-visiones_seccion {
+    height: 1352px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_titulo {
+    font-size: 40px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_descripcion {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}

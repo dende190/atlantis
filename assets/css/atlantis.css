@@ -1,0 +1,401 @@
+body {
+  margin: 0;
+  font-family: Lato;
+}
+
+.atlantis-encabezado_seccion {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.atlantis-encabezado_video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.atlantis-encabezado_titulo_contenedor {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 160px;
+  position: absolute;
+}
+
+.atlantis-encabezado_titulo {
+  display: flex;
+  flex-direction: column;
+  line-height: 98px;
+  font-family: Lato-Black;
+  color: white;
+  font-size: 100px;
+  margin: 0 0 10px;
+}
+
+.atlantis-encabezado_subtitulo {
+  display: contents;
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+
+.atlantis-encabezado_subtitulo_claro {
+  margin-top: 5px;
+  font-weight: 100;
+}
+
+.atlantis-encabezado_presentacion_imagenes_contenedor {
+  display: flex;
+  position: absolute;
+  bottom: 146px;
+  right: -80px;
+}
+
+.atlantis-encabezado_personas_acampando_imagen_contenedor {
+  display: flex;
+  width: 440px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 18px 16px;
+  margin-right: 32px;
+}
+
+.atlantis-encabezado_personas_acampando_imagen {
+  width: inherit;
+  object-fit: cover;
+  border-radius: 17px;
+}
+
+.atlantis-encabezado_personas_oficina_imagen_contenedor {
+  display: flex;
+  width: 440px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 18px 16px;
+}
+
+.atlantis-encabezado_personas_oficina_imagen {
+  width: inherit;
+  object-fit: cover;
+  border-radius: 17px;
+}
+
+.atlantis-quienes_somos_seccion {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.atlantis-quienes_somos_contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 160px;
+  padding: 0 120px;
+  width: 100%;
+}
+
+.atlantis-quienes_somos_titulo {
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+  font-family: Lato-Black;
+  line-height: 98px;
+  margin: 0 0 32px;
+  color: #011837;
+}
+
+.atlantis-quienes_somos_contenido {
+  color: #011837;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.atlantis-quienes_somos_imagen_contenedor {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.atlantis-quienes_somos_personas_viajando_imagen {
+  width: 80%;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+.atlantis-quienes_somos_personas_viajando_imagen_fondo_color_contenedor {
+  background-color: #011837;
+  width: 104%;
+  height: 124%;
+  position: absolute;
+  border-radius: 39px;
+  right: -169px;
+  z-index: -1;
+}
+
+.atlantis-servicios_seccion {
+  height: 100vh;
+  position: relative;
+}
+
+.atlantis-servicios_fondo_color_contenedor {
+  background-color: #011837;
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  z-index: -1;
+}
+
+.atlantis-servicios_contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.atlantis-servicios_personas_museo_imagen {
+  width: 524px;
+  height: 320px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 74px;
+}
+
+.atlantis-servicios_colegio_autobus_imagen {
+  width: 524px;
+  height: 320px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.atlantis-servicios_contenido_contenedor {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-top: 54px;
+}
+
+.atlantis-servicios_titulo {
+  font-family: Lato-Black;
+  color: white;
+  font-size: 108px;
+  margin: 0;
+  padding-top: 4px;
+}
+
+.atlantis-servicios_listado_contenedor {
+  font-size: 23px;
+}
+
+.atlantis-servicios_listado_titulo {
+  font-family: Lato-Black;
+}
+
+.atlantis-servicios_listado {
+  list-style: none;
+  padding: 16px 20px 0 0;
+  line-height: 40px;
+}
+
+.atlantis-visiones_seccion {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/personas_estudiando.jpg);
+  height: 1320px;
+}
+
+.atlantis-visiones_imagen_fondo_opacidad_contenedor {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(30, 73, 162, 0.8);
+  z-index: 0;
+}
+
+.atlantis-visiones_contenido_contenedor {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.atlantis-visiones_titulo {
+  color: white;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Lato-Black;
+  margin-bottom: 48px;
+}
+
+.atlantis-visiones_contenedor {
+  display: flex;
+  justify-content: space-around;
+  width: 68%;
+  background-color: #efefef;
+  padding: 8px;
+  gap: 12px;
+}
+
+.atlantis-vision_contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 40px 48px 54px;
+}
+
+.atlantis-vision_icono {
+  font-size: 48px;
+}
+
+.atlantis-vision_titulo {
+  font-family: Lato-Black;
+  margin: 36px 0 24px;
+  font-size: 24px;
+}
+
+.atlantis-vision_descripcion {
+  margin: 0;
+  font-size: 20px;
+  line-height: 32px;
+  color: grey;
+}
+
+.atlantis-vision_nuestra_especialidad_contenedor {
+  background-color: #011837;
+  border-radius: 20px;
+  width: 72%;
+  margin: 120px;
+}
+
+.atlantis-vision_nuestra_especialidad_contenido_contenedor {
+  display: flex;
+  justify-content: center;
+  height: 420px;
+  align-items: center;
+  gap: 80px;
+}
+
+.atlantis-vision_nuestra_especialidad_imagen {
+  width: 320px;
+  height: 470px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.atlantis-vision_nuestra_especialidad_descripcion_contenedor {
+  width: 40%;
+}
+
+.atlantis-vision_nuestra_especialidad_titulo {
+  color: white;
+  font-size: 51px;
+  font-family: Lato-Black;
+  line-height: 48px;
+  margin: 0;
+}
+
+.atlantis-vision_nuestra_especialidad_descripcion {
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.atlantis-gracias_seccion {
+  margin: 100px 0 0 240px;
+}
+
+.atlantis-gracias_titulo {
+  font-family: Lato-Black;
+  font-size: 88px;
+  margin: 0;
+}
+
+.atlantis-gracias_contacto_mensaje {
+  font-size: 24px;
+  margin: 12px 0 0 56px;
+}
+
+.atlantis-pie_pagina {
+  background-color: #011837;
+  color: white;
+  padding: 68px 100px 40px;
+  margin-top: 80px;
+  font-size: 24px;
+}
+
+.atlantis-pie_pagina_redes_informacion_contenedor {
+  display: flex;
+}
+
+.atlantis-pie_pagina_redes_informacion_telefono_contenedor {
+  display: flex;
+  flex-direction: column;
+  margin-right: 140px;
+}
+
+.atlantis-pie_pagina_redes_informacion_nombre {
+  font-family: Lato-Black;
+}
+
+.atlantis-pie_pagina_redes_informacion_telefono {
+  margin-top: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.atlantis-pie_pagina_redes_informacion_telefono:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.atlantis-pie_pagina_red_social {
+  font-size: 56px;
+  color: white;
+  text-decoration: none;
+}
+
+.atlantis-pie_pagina_red_social:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.atlantis-pie_pagina_correo_contenedor {
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+}
+
+.atlantis-pie_pagina_correo_titulo {
+  font-family: Lato-Black;
+}
+
+.atlantis-pie_pagina_correo {
+  margin-top: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.atlantis-pie_pagina_correo:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.atlantis-whatsapp_logo {
+  width: 68px;
+  position: fixed;
+  right: 32px;
+  bottom: 20px;
+}

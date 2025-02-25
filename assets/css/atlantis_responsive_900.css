@@ -1,0 +1,119 @@
+@media (width <= 900px) {
+  .atlantis-encabezado_seccion {
+    display: flex;
+    justify-content: center;
+  }
+
+  .atlantis-encabezado_titulo_contenedor {
+    padding: 0;
+    align-items: center;
+  }
+
+  .atlantis-encabezado_titulo {
+    font-size: 120px;
+    line-height: 112px;
+    text-align: center;
+  }
+
+  .atlantis-encabezado_presentacion_imagenes_contenedor {
+    bottom: 180px;
+    right: auto;
+  }
+
+  .atlantis-encabezado_personas_acampando_imagen_contenedor {
+    width: 300px;
+  }
+
+  .atlantis-encabezado_personas_oficina_imagen_contenedor {
+    width: 300px;
+  }
+
+  .atlantis-quienes_somos_seccion {
+    display: flex;
+  }
+
+  .atlantis-quienes_somos_contenedor {
+    width: 100%;
+    gap: 0;
+    padding: 0 146px;
+  }
+
+  .atlantis-quienes_somos_titulo {
+    text-align: center;
+    font-size: 120px;
+    margin-bottom: 64px;
+  }
+
+  .atlantis-quienes_somos_contenido {
+    font-size: 32px;
+    line-height: 55px;
+  }
+
+  .atlantis-quienes_somos_imagen_contenedor {
+    display: none;
+  }
+
+  .atlantis-servicios_fondo_color_contenedor {
+    width: 100%;
+  }
+
+  .atlantis-servicios_personas_museo_imagen {
+    width: 500px;
+    height: 324px;
+  }
+
+  .atlantis-servicios_colegio_autobus_imagen {
+    display: none;
+  }
+
+  .atlantis-servicios_contenido_contenedor {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .atlantis-servicios_titulo {
+    font-size: 100px;
+    margin-bottom: 44px;
+  }
+
+  .atlantis-servicios_listado_contenedor {
+    font-size: 24px;
+    margin-left: 0;
+    color: white;
+  }
+
+  .atlantis-servicios_listado {
+    line-height: 44px;
+  }
+
+  .atlantis-visiones_seccion {
+    height: 1440px;
+  }
+
+  .atlantis-visiones_contenido_contenedor {
+    margin-top: 0;
+  }
+
+  .atlantis-visiones_contenedor {
+    flex-direction: column;
+  }
+
+  .atlantis-vision_nuestra_especialidad_contenedor {
+    margin: 36px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_imagen {
+    display: none;
+  }
+
+  .atlantis-vision_nuestra_especialidad_descripcion_contenedor {
+    width: 90%;
+  }
+
+  .atlantis-vision_nuestra_especialidad_titulo {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+}

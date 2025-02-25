@@ -1,0 +1,94 @@
+@media (width <= 1100px) {
+  .atlantis-encabezado_titulo {
+    font-size: 90px;
+    line-height: 88px;
+  }
+
+  .atlantis-encabezado_subtitulo {
+    font-size: 16px;
+  }
+
+  .atlantis-encabezado_titulo_contenedor {
+    padding-left: 80px;
+  }
+
+  .atlantis-encabezado_presentacion_imagenes_contenedor {
+    bottom: 388px;
+    right: -100px;
+  }
+
+  .atlantis-encabezado_personas_acampando_imagen_contenedor {
+    width: 232px;
+    padding: 14px 12px;
+  }
+
+  .atlantis-encabezado_personas_oficina_imagen_contenedor {
+    width: 232px;
+    padding: 14px 12px;
+  }
+
+  .atlantis-quienes_somos_contenedor {
+    width: 105%;
+    gap: 69px;
+  }
+
+  .atlantis-servicios_personas_museo_imagen {
+    width: 420px;
+    height: 252px;
+    margin-right: 28px;
+  }
+
+  .atlantis-servicios_colegio_autobus_imagen {
+    width: 420px;
+    height: 252px;
+  }
+
+  .atlantis-servicios_contenido_contenedor {
+    width: 90%;
+  }
+
+  .atlantis-servicios_titulo {
+    font-size: 83px;
+  }
+
+  .atlantis-servicios_listado_contenedor {
+    font-size: 21px;
+    margin-left: 89px;
+  }
+
+  .atlantis-servicios_listado {
+    line-height: 30px;
+  }
+
+  .atlantis-visiones_seccion {
+    height: 1400px;
+  }
+
+  .atlantis-vision_contenedor {
+    padding: 20px 28px 32px;
+  }
+
+  .atlantis-vision_descripcion {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_imagen {
+    width: 294px;
+    height: 466px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_titulo {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_descripcion {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .atlantis-gracias_seccion {
+    margin: 80px 0 0 120px;
+  }
+}

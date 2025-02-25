@@ -1,0 +1,28 @@
+@media (width <= 380px) {
+  .atlantis-encabezado_titulo {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_contenido_contenedor {
+    height: 352px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_titulo {
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  .atlantis-vision_nuestra_especialidad_descripcion {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .atlantis-gracias_titulo {
+    font-size: 80px;
+  }
+
+  .atlantis-gracias_contacto_mensaje {
+    font-size: 20px;
+  }
+}
