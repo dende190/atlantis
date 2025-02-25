@@ -1,0 +1,18 @@
+@media (width <= 1290px) {
+  .atlantis-encabezado_presentacion_imagenes_contenedor {
+    bottom: 185px;
+    right: -128px;
+  }
+
+  .atlantis-encabezado_personas_acampando_imagen_contenedor {
+    width: 272px;
+  }
+
+  .atlantis-encabezado_personas_oficina_imagen_contenedor {
+    width: 272px;
+  }
+
+  .atlantis-visiones_contenido_contenedor {
+    margin-top: 0;
+  }
+}
