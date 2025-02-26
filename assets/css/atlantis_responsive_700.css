@@ -60,6 +60,10 @@
     padding: 0 44px;
   }
 
+  .atlantis-visiones_seccion {
+    height: 1240px;
+  }
+
   .atlantis-visiones_titulo {
     font-size: 24px;
   }
@@ -69,20 +73,28 @@
   }
 
   .atlantis-vision_titulo {
-    margin: 12px 0 24px;
+    margin: 12px 0 16px;
+    font-size: 20px;
+  }
+
+  .atlantis-vision_descripcion {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .atlantis-vision_nuestra_especialidad_contenido_contenedor {
-    height: 480px;
+    height: 372px;
   }
 
   .atlantis-vision_nuestra_especialidad_titulo {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .atlantis-vision_nuestra_especialidad_descripcion {
     text-align: center;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .atlantis-gracias_seccion {
@@ -108,6 +120,7 @@
   }
 
   .atlantis-pie_pagina_redes_informacion_telefono_contenedor {
+    text-align: center;
     margin: 40px 0 20px;
   }
 
