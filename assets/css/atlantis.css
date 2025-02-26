@@ -302,7 +302,7 @@ body {
 
 .atlantis-vision_nuestra_especialidad_titulo {
   color: white;
-  font-size: 51px;
+  font-size: 44px;
   font-family: Lato-Black;
   line-height: 48px;
   margin: 0;
@@ -310,8 +310,8 @@ body {
 
 .atlantis-vision_nuestra_especialidad_descripcion {
   color: white;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .atlantis-gracias_seccion {
