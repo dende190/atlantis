@@ -110,4 +110,12 @@
     line-height: 44px;
     text-align: center;
   }
+
+  .atlantis-gracias_seccion {
+    width: 100%;
+  }
+
+  .atlantis-gracias_logo_imagen {
+    display: none;
+  }
 }

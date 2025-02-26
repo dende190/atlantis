@@ -316,6 +316,9 @@ body {
 
 .atlantis-gracias_seccion {
   margin: 100px 0 0 240px;
+  position: relative;
+  overflow: hidden;
+  width: 60%;
 }
 
 .atlantis-gracias_titulo {
@@ -327,6 +330,13 @@ body {
 .atlantis-gracias_contacto_mensaje {
   font-size: 24px;
   margin: 12px 0 0 56px;
+}
+
+.atlantis-gracias_logo_imagen {
+  width: 400px;
+  position: absolute;
+  bottom: -182px;
+  right: 0;
 }
 
 .atlantis-pie_pagina {

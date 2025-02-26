@@ -1,17 +1,4 @@
 @media (width <= 320px) {
-  .atlantis-encabezado_titulo {
-    font-size: 52px;
-    line-height: 56px;
-  }
-
-  .atlantis-encabezado_subtitulo {
-    font-size: 12px;
-  }
-
-  .atlantis-encabezado_presentacion_imagenes_contenedor {
-    bottom: 64px;
-  }
-
   .atlantis-quienes_somos_titulo {
     font-size: 68px;
     margin: 40px 0 32px;

@@ -1,12 +1,6 @@
 @media (width <= 700px) {
   .atlantis-encabezado_titulo_contenedor {
-    justify-content: start;
-    margin-top: 180px;
-  }
-
-  .atlantis-encabezado_titulo {
-    font-size: 80px;
-    line-height: 87px;
+    justify-content: center;
   }
 
   .atlantis-encabezado_subtitulo {
@@ -14,17 +8,7 @@
   }
 
   .atlantis-encabezado_presentacion_imagenes_contenedor {
-    flex-direction: column;
-    bottom: 40px;
-  }
-
-  .atlantis-encabezado_personas_acampando_imagen_contenedor {
-    width: 240px;
-    margin: 0 0 20px;
-  }
-
-  .atlantis-encabezado_personas_oficina_imagen_contenedor {
-    width: 240px;
+    display: none;
   }
 
   .atlantis-quienes_somos_seccion {
@@ -147,15 +131,6 @@
 }
 
 @media (width <= 700px) and (height <= 800px) {
-  .atlantis-encabezado_titulo_contenedor {
-    margin-top: 80px;
-  }
-
-  .atlantis-encabezado_titulo {
-    font-size: 52px;
-    line-height: 56px;
-  }
-
   .atlantis-encabezado_subtitulo {
     font-size: 12px;
   }
@@ -189,5 +164,11 @@
   .atlantis-servicios_listado {
     line-height: 36px;
   }
+}
 
+@media (width <= 600px) {
+  .atlantis-encabezado_titulo {
+    font-size: 80px;
+    line-height: 72px;
+  }
 }
