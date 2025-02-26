@@ -138,4 +138,44 @@
   .atlantis-encabezado_titulo_contenedor {
     margin-top: 80px;
   }
+
+  .atlantis-encabezado_titulo {
+    font-size: 52px;
+    line-height: 56px;
+  }
+
+  .atlantis-encabezado_subtitulo {
+    font-size: 12px;
+  }
+
+  .atlantis-encabezado_personas_acampando_imagen_contenedor {
+    width: 180px;
+  }
+
+  .atlantis-encabezado_personas_oficina_imagen_contenedor {
+    width: 180px;
+  }
+
+  .atlantis-quienes_somos_titulo {
+    font-size: 64px;
+    margin-bottom: 32px;
+  }
+
+  .atlantis-quienes_somos_contenido {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .atlantis-servicios_titulo {
+    font-size: 64px;
+  }
+
+  .atlantis-servicios_listado_contenedor {
+    font-size: 20px;
+  }
+
+  .atlantis-servicios_listado {
+    line-height: 36px;
+  }
+
 }
